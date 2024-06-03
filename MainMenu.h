@@ -17,6 +17,13 @@ private:
     sf::Font font;
     sf::Text title;
     sf::Text startButton;
+    sf::Texture backgroundTexture;
+    sf::Sprite backgroundSprite;
+    sf::Texture foregroundTexture;
+    sf::Sprite foregroundSprite;
+    sf::Color hexToColor(std::string hex);
+    sf::RectangleShape titleUnderline;
+    sf::RectangleShape buttonUnderline;
 };
 
 #endif //HANGMAN_PP_MAINMENU_H
