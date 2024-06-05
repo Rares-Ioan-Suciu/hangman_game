@@ -22,12 +22,24 @@ public:
 private:
     GameApp& app;
     sf::Font font;
+    sf::Font titleFont;
     sf::Text title;
     sf::Text moviesButton;
     sf::Text literatureButton;
     sf::Text musicButton;
     sf::Text pop_cultureButton;
     sf::Text video_gamesButton;
+    sf::Texture backgroundTexture;
+    sf::Sprite backgroundSprite;
+    sf::Texture foregroundTexture;
+    sf::Sprite foregroundSprite;
+    sf::Color hexToColor(std::string hex);
+    sf::RectangleShape moviesUnderline;
+    sf::RectangleShape literatureUnderline;
+    sf::RectangleShape musicButtonUnderline;
+    sf::RectangleShape pop_cultureButtonUnderline;
+    sf::RectangleShape video_gameUnderline;
+    sf::RectangleShape titleUnderline;
 };
 
 
