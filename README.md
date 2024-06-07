@@ -28,7 +28,7 @@ Welcome to our Hangman game! This project was developed using C++ and the SFML l
 - C++ compiler (e.g., g++, clang++)
 - SFML library (version 2.5 or later)
 
-###Guide
+## Guide
 
 **Our team managed to make a guide:** and you can access it here: [Guide](https://github.com/Rares-Ioan-Suciu/hangman_game/blob/main/HangmanGuide%20(1).pdf)
 
